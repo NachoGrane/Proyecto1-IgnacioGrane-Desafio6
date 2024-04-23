@@ -99,6 +99,71 @@
             </fieldset>
         </form>
         <div class="separador"></div>
+        <!-- Actividades -->
+        <form class="form-group mb-20">
+            <!--inputs-->
+            <fieldset>
+                <legend><span>A</span>ctividades</legend>
+                <p class="mt-20">
+                    Por favor, indicá cuáles actividades te interesan.
+                </p>
+                <div class="input-group input-actividades">
+                    <label>Sede Palermo:</label>
+                    <div class="checkboxActividades gap-3 mt-10">
+                        <input
+                            type="checkbox"
+                            name="Basquet"
+                            id="lbl-basquet"
+                        />
+                        <label for="lbl-basquet">Básquet</label>
+                        <input type="checkbox" name="boxeo" id="lbl-boxeo" />
+                        <label for="lbl-boxeo">Boxeo</label>
+                        <input type="checkbox" name="futbol" id="lbl-futbol" />
+                        <label for="lbl-futbol">Fútbol</label>
+                        <input type="checkbox" name="tenis" id="lbl-tenis" />
+                        <label for="lbl-tenis">Tenis</label>
+                    </div>
+                </div>
+                <div class="input-group input-actividades">
+                    <label>Sede Rosario:</label>
+                    <div class="checkboxActividades gap-3 mt-10">
+                        <input
+                            type="checkbox"
+                            name="Basquet"
+                            id="lbl-basquet"
+                        />
+                        <label for="lbl-basquet">Básquet</label>
+                        <input type="checkbox" name="futbol" id="lbl-futbol" />
+                        <label for="lbl-futbol">Fútbol</label>
+                        <input type="checkbox" name="rugby" id="lbl-rugby" />
+                        <label for="lbl-rugby">Rugby</label>
+                        <input type="checkbox" name="voley" id="lbl-voley" />
+                        <label for="lbl-voley">Voley</label>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="checkCondiciones">
+            <div class="mb-10">
+                <input
+                    type="checkbox"
+                    name="condiciones"
+                    id="lbl-condiciones"
+                />
+                <label for="lbl-condiciones"> Acepto las condiciones*</label>
+            </div>
+            <div class="mb-10">
+                <input type="checkbox" name="novedades" id="lbl-novedades" />
+                <label for="lbl-novedades"> Deseo recibir novedades</label>
+            </div>
+            <p class="text-white fw-bold" style="font-size: 14px">
+                *: campo obligatorio.
+            </p>
+        </div>
+        <div class="text-center">
+            <button type="button">Iniciar afiliación</button>
+            <button type="button">Restablecer</button>
+        </div>
         <script type="module" src="/main.js"></script>
     </body>
 </html>

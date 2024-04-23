@@ -10,6 +10,7 @@
     --bg-body: #1f2023;
 }
 body {
+    font-family: "Roboto", sans-serif;
     background-color: var(--bg-body);
 }
 
@@ -67,13 +68,42 @@ fieldset {
 .align-items-center {
     align-items: center !important;
 }
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
 .text-center {
     text-align: center !important;
 }
 .text-end {
     text-align: end !important;
 }
-
+.text-start {
+    text-align: start !important;
+}
+.text-white {
+    color: white;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.gap-3 {
+    gap: 5px;
+}
+.mt-10 {
+    margin-top: 10px !important;
+}
+.mt-20 {
+    margin-top: 20px !important;
+}
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+.mb-20 {
+    margin-bottom: 20px !important;
+}
 .input-group {
     display: flex;
     flex-direction: column;
@@ -112,10 +142,46 @@ fieldset {
     background-color: var(--bs-legend-focus);
 }
 
+.input-actividades {
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+    justify-content: start !important;
+}
+
 .separador {
     width: 300px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 30px;
     border-bottom: 15px dotted #a6c1b9;
+}
+
+.checkCondiciones {
+    color: white;
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    background-color: var(--bs-legend-focus);
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 30px;
+    border: 0;
+}
+button:hover {
+    background-color: var(--c-secondary);
+    color: black;
+}
+
+.checkboxActividades {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
