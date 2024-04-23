@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Proyecto01-Desafio 6</title>
+    </head>
+    <body>
+        <!-- Titulo -->
+        <h1>Vení al Gym!</h1>
+        <!-- Datos personales -->
+        <form class="form-group">
+            <!--inputs-->
+            <fieldset>
+                <legend><span>D</span>atos <span>P</span>ersonales</legend>
+                <div class="input-group">
+                    <label for="lbl-nombre">Nombre: *</label>
+                    <input type="text" id="lbl-nombre" name="nombre" />
+                </div>
+                <div class="input-group">
+                    <label for="lbl-apellido">Apellido: *</label>
+                    <input type="text" id="lbl-apellido" name="apellido" />
+                </div>
+                <div class="input-group">
+                    <label for="lbl-documento">Documento: *</label>
+                    <input type="text" id="lbl-documento" name="documento" />
+                </div>
+
+                <div class="input-group">
+                    <label for="lbl-selectNacionalidad">Nacionalidad: *</label>
+                    <select
+                        id="lbl-selectNacionalidad"
+                        name="selectNacionalidad"
+                    >
+                        <option value="0" disabled selected>
+                            - Seleccionar -
+                        </option>
+                        <option value="1">Argentina</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="lbl-descripcion"
+                        >Contanos un poco de vos...</label
+                    >
+                    <textarea
+                        id="lbl-descripcion"
+                        name="descripcion"
+                        id=""
+                        cols="30"
+                        rows="30"
+                    ></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="lbl-sexo">Sexo: *</label>
+                    <div>
+                        <input type="radio" id="lbl-femenino" name="femenino" />
+                        <label for="lbl-femenino">Femenino</label>
+                        <input
+                            type="radio"
+                            id="lbl-masculino"
+                            name="masculino"
+                        />
+                        <label for="lbl-masculino">Masculino</label>
+                        <input type="radio" id="lbl-otro" name="otro" />
+                        <label for="lbl-otro">Otro</label>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <div class="separador"></div>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>

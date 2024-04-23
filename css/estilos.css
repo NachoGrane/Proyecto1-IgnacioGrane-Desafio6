@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --c-primary: #4d6d63;
+    --c-secondary: #d6e2de;
+    --bs-primary-focus: #4d6d63;
+    --bs-secondary-focus: #a6c1b9;
+    --bs-legend-focus: #2b3d37;
+    --bg-body: #1f2023;
+}
+body {
+    background-color: var(--bg-body);
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+    border-top: 15px solid var(--bs-primary-focus);
+    border-bottom: 15px solid var(--bs-primary-focus);
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+form {
+    font-family: "Roboto", sans-serif;
+    width: 50%;
+    margin: auto;
+}
+
+form legend {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    background-color: var(--c-primary);
+    border-radius: 5px;
+}
+form legend span {
+    font-size: 18px;
+}
+fieldset {
+    background-color: var(--c-secondary);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex {
+    display: flex !important;
+}
+.flex-row {
+    flex-direction: row !important;
+}
+.flex-column {
+    flex-direction: column !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-group > input,
+.input-group > textarea,
+.input-group > select {
+    width: 75%;
+    height: 30px;
+    font-size: 18px;
+}
+.input-group > select {
+    height: 40px;
+}
+.input-group > textarea {
+    height: 150px;
+}
+.input-group > label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.input-group > input:focus,
+.input-group > textarea:focus,
+.input-group > select:focus {
+    background-color: var(--bs-primary-focus);
+}
+.form-group:hover > fieldset {
+    background-color: var(--bs-secondary-focus);
+}
+.form-group:hover > fieldset > legend {
+    background-color: var(--bs-legend-focus);
+}
+
+.separador {
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 15px dotted #a6c1b9;
+}
