@@ -35,14 +35,15 @@ form {
 form legend {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     color: white;
     padding: 5px 10px 5px 10px;
     background-color: var(--c-primary);
     border-radius: 5px;
+    font-size: 18px;
 }
 form legend span {
-    font-size: 18px;
+    font-size: 24px;
 }
 fieldset {
     background-color: var(--c-secondary);
@@ -65,6 +66,12 @@ fieldset {
 }
 .align-items-center {
     align-items: center !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.text-end {
+    text-align: end !important;
 }
 
 .input-group {
@@ -108,7 +115,7 @@ fieldset {
 .separador {
     width: 300px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     border-bottom: 15px dotted #a6c1b9;
 }
