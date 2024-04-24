@@ -20,8 +20,9 @@ h1 {
     font-size: 45px;
     color: white;
     font-weight: bolder;
-    border-top: 15px solid var(--bs-primary-focus);
-    border-bottom: 15px solid var(--bs-primary-focus);
+    border: 15px solid var(--bs-primary-focus);
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
     width: 50%;
     margin: auto;
     margin-bottom: 30px;
